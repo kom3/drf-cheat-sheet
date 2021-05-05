@@ -307,7 +307,12 @@ class PostList(generics.GenericAPIView,
 ```
 
 #### Using ViewSets:
-
+``` More Details at: https://www.django-rest-framework.org/api-guide/viewsets/#viewset-actions```
+```
+#####Shortcut to remember:
+ViewSets methods: list, create, retrieve, update, partial_update,destroy
+APIView methods: get, post
+```
 With `ModelViewSet` (in this case), you don't have to create separate views for getting list of objects and detail of one object. ViewSet will handle it for you in a consistent way for both methods.
 
 ```python
