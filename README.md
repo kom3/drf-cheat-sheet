@@ -309,7 +309,7 @@ class PostList(generics.GenericAPIView,
 #### Using ViewSets:
 ``` More Details at: https://www.django-rest-framework.org/api-guide/viewsets/#viewset-actions```
 ```
-#####Shortcut to remember:
+Shortcut to remember:
 ViewSets methods: list, create, retrieve, update, partial_update,destroy
 APIView methods: get, post
 ```
